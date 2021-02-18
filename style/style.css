@@ -254,7 +254,7 @@
     }
 
     .b-gray-rectangle-square--green-ship {
-        background: url(img/ship.png) no-repeat;
+        background: url(../img/ship.png) no-repeat;
         background-size: cover;
     }
 
