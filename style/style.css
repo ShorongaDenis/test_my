@@ -262,7 +262,7 @@ main {
     }
 
     .b-gray-rectangle-square__images-ship {
-        background: url(/test/img/ship.png) no-repeat;
+        background: url(test/img/ship.png) no-repeat;
         background-size: cover;
         width: 100%;
         height: 100%;
