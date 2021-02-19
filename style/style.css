@@ -209,7 +209,7 @@ main {
     }
 
     .b-light-gray {
-        flex-grow: 2.4;
+        flex-grow: 2.5;
         max-width: 492px;
     }
 
@@ -252,21 +252,34 @@ main {
         position: relative;
     }
 
+    .b-gray-rectangle-square--inner {
+        padding: 0;
+    }
+
     .b-gray-rectangle-square--green {
         background: #E3EBD3;
         order: 1;
     }
 
-    .b-gray-rectangle-square--green-ship {
-        background: url(../img/ship.png) no-repeat;
+    .b-gray-rectangle-square__images-ship {
+        background: url(/test/img/ship.png) no-repeat;
         background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        display: flex;
+        align-items: flex-end;
     }
 
-    .b-gray-rectangle-square--green-ship:hover .b-sign {
+    .b-gray-rectangle-square__images-ship:hover {
+        filter: blur(8px);
+    }
+
+    .b-gray-rectangle-square--green:hover .b-gray-rectangle-square__sign {
         opacity: 1;
     }
 
-    .b-sign {
+    .b-gray-rectangle-square__sign {
         opacity: 0;
         font-size: 36px;
         line-height: 42px;
@@ -293,11 +306,11 @@ main {
     }
 }
 
-@media (max-width: 2560px) and (min-width:768px) {
+@media (max-width: 2560px) and (min-width:769px) {
     .b-gray-rectangle-square {
-        height: 34.3vh;
+        height: 25.7vh;
     }
 
     .b-gray-square {
-        height: 70vh;
+        height: 52.6vh;
     }
