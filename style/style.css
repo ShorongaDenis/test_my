@@ -247,6 +247,26 @@ main {
         padding: 15px;
     }
 
+    /* ---------- */
+    .b-item {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .b-item--left {
+        display: inline-block;
+    }
+
+    .b-item--point {
+        overflow: hidden;
+    }
+
+    .b-item--right {
+        display: inline-block;
+    }
+
+    /* ---------- */
+
     .b-gray-rectangle--green {
         margin-right: 1.5%;
         position: relative;
